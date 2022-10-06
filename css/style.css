@@ -7,7 +7,8 @@
 header{
     width: 100%;
     height: 50px;
-    background-color: black;    
+    background-color: black; 
+    padding: 5px;   
     display: flex;
     position: fixed;
     justify-content: right;
@@ -17,6 +18,11 @@ header{
 
 .view{
     position: relative;
+}
+
+.view i{
+    background-color: gray;
+    color: white;
 }
 
 
