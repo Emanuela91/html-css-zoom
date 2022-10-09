@@ -1,3 +1,4 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +17,8 @@ header{
     z-index: 10;
 }
 
+
+/* barra in alto header */
 .view{
     position: relative;
 }
@@ -27,45 +30,52 @@ header{
     padding: 5px;
 }
 
+
+/* inizio main */
 main{
     background-color: black;
     margin: 50px 0;
     /* display: flex;*/
 } 
 
+
+/* tutto il container con immagini utente */
 .container-img{
-    /* max-width: 100vh; */
-    /* position: relative; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin: 0 auto; */
-    
+    margin: 0 20px;    
 }
 
+
+/* setup immagine titolo e mic */
 .card{
     position: relative;
     width: calc(100% / 8);
     margin: 5px;
-
+    display: flex;
 }   
 
 .container-img img{
     width: 100%;
 }
 
+.utente{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
 h3{
-
+    color: white;
+    font-size: 10px;
+    background-color: rgb(149, 145, 145, 0.4);
+    padding: 3px;
 }
 
-
-
-
-
-
-
-
-
+h3 i{
+    color: white;
+}
+/* fine main */
 
 
 footer{
