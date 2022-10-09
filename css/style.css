@@ -82,8 +82,47 @@ footer{
     width: 100%;
     height: 50px;
     display: flex;
-    background-color: orange;    
+    background-color: rgb(68, 65, 65);    
     position: fixed;
     bottom: 0;
     z-index: 10;
+}
+
+
+/* non capisco perchè non mi va la width a 100% */
+.menu{
+    display: flex;    
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left div{    
+    color: white;
+    font-size: 7px;
+    padding: 10px 5px;
+}
+
+.left i{
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+#angle-up{
+    font-size: 10px ;
+}
+
+#share{
+    color: green;
+}
+
+#fine{
+    color: red;
+    background-color: rgb(170, 162, 162);
+    border: none;
+    height: 100%;
+    padding: 0 5px;
 }
