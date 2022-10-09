@@ -10,8 +10,8 @@ header{
     background-color: black; 
     padding: 5px;   
     display: flex;
-    position: fixed;
     justify-content: right;
+    position: fixed;
     top: 0;
     z-index: 10;
 }
@@ -23,6 +23,39 @@ header{
 .view i{
     background-color: gray;
     color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+main{
+    background-color: black;
+    margin: 50px 0;
+    /* display: flex;*/
+} 
+
+.container-img{
+    /* max-width: 100vh; */
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
+    
+}
+
+.card{
+    position: relative;
+    width: calc(100% / 8);
+    margin: 5px;
+
+}   
+
+.container-img img{
+    width: 100%;
+}
+
+h3{
+
 }
 
 
